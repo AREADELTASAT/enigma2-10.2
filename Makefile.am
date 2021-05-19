@@ -5,9 +5,6 @@ ACLOCAL_AMFLAGS = -I m4
 pkgconfigdir = $(libdir)/pkgconfig
 pkgconfig_DATA = enigma2.pc
 
-install_PYTHON = \
-	skin.py 
-
 metadir = $(datadir)/meta
 meta_DATA = index-enigma2.xml
 CLEANFILES = index-enigma2.xml
