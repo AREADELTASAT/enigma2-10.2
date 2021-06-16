@@ -34,7 +34,7 @@ class About(Screen):
 		AboutText += _("Build date: ") + about.getBuildDateString() + "\n"
 		AboutText += _("Last update: ") + about.getUpdateDateString() + "\n"
 		"\n"
-                Open Delta Image by AREADELTASAT Team "\n"
+                AboutText += _("Open Delta Image by AREADELTASAT Team") "\n"
 		"\n"
 		# [WanWizard] Removed until we find a reliable way to determine the installation date
 		# AboutText += _("Installed: ") + about.getFlashDateString() + "\n"
