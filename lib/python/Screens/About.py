@@ -35,7 +35,7 @@ class About(Screen):
 		AboutText += _("Last update: ") + about.getUpdateDateString() + "\n"
 
 		# [WanWizard] Removed until we find a reliable way to determine the installation date
-		AboutText += _("Compiled by areadelta") + about.() + "\n"
+		AboutText += _("Compiled by areadelta") + about.getUpdateDateString() + "\n"
 
 		EnigmaVersion = about.getEnigmaVersionString()
 		EnigmaVersion = EnigmaVersion.rsplit("-", EnigmaVersion.count("-") - 2)
